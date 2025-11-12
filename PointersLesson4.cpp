@@ -1,27 +1,6 @@
 #include <iostream>
 using namespace std;
 
-int getMin(int numbers[], int sizeOfArray)
-{
-    int min = numbers[0];
-    for (int i = 0; i < sizeOfArray; i++)
-    {
-        if (numbers[i] < min)
-            min = numbers[i];
-    }
-    return min;
-}
-int getMax(int numbers[], int sizeOfArray)
-{
-    int max = numbers[0];
-    for (int i = 0; i < sizeOfArray; i++)
-    {
-        if (numbers[i] > max)
-            max = numbers[i];
-    }
-    return max;
-}
-
 int getMinAndMax(int numbers[], int sizeOfTheArray, int *max, int *min)
 {
     for (int i = 0; i < sizeOfTheArray; i++)
