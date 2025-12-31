@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-class Node
+class Node // Define the structure for a linked list node
 {
 public:
-    int Value;
-    Node *Next;
+    int Value; // The value stored in the node
+    Node *Next; // Pointer to the next node in the list
 };
 
-void PrintLinkedList(Node *headFirst)
+void PrintLinkedList(Node *headFirst) // Function to print the linked list
 {
     while (headFirst != NULL)
     {
