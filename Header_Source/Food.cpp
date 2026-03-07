@@ -13,5 +13,5 @@ const char* RecommendMeAFood(char firstLetter) {
 }
 
 void GetPizzaRecipe() {
-	std::cout << "Here is the pizza recipe...."
+	std::cout << "Here is the pizza recipe....";
 }
